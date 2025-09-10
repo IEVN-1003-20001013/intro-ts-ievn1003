@@ -8,7 +8,7 @@ const sumaflecha = (a: number, b: number): number => a + b
 console.log(sumaflecha)
 
 function multiplicar(n1:number, n2:number, base:number=2):number {
-    return n1*base
+    return n1*base/n2
 }
  console.log(multiplicar(5, 10))
  console.log(multiplicar(5,10))
